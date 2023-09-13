@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+/* Estilize a div fixa à esquerda */
+.div-fixa {
+    background-color: #f0f0f0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 50%; /* Largura desejada */
+    height: 100%; /* 100% da altura da janela */
+}
+
+/* Estilize a div com rolagem à direita */
+.div-com-rolagem {
+    margin-left: 50%; /* Largura da div fixa + margem */
+    padding: 20px; /* Espaçamento interno */
+    overflow-y: auto; /* Adicionar barra de rolagem vertical quando necessário */
+    height: 100%; /* 100% da altura da janela */
+}
+
+#perfil {
+    width: 200px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-left: 100px;
+    margin-top: 80px;
+    padding-bottom: 10px;
+}
+
+.ml-custom {
+    margin-left: 2rem;
+}
+
+#nomes {
+    margin-left: 120px;
+    text-align:justify;
+}
+
+#nomes h1{
+    font-family: 'Lato', sans-serif;
+}
+
+#nomes h4, h5{
+    font-family: 'Roboto', sans-serif;
+    color: #45403E;
+}
