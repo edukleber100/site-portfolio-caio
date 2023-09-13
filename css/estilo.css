@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
-/* Estilize a div fixa à esquerda */
+/* Estilizar a div fixa à esquerda */
 .div-fixa {
     background-color: #f0f0f0;
     position: fixed;
@@ -11,7 +11,7 @@
     height: 100%; /* 100% da altura da janela */
 }
 
-/* Estilize a div com rolagem à direita */
+/* Estilizar a div com rolagem à direita */
 .div-com-rolagem {
     margin-left: 50%; /* Largura da div fixa + margem */
     padding: 20px; /* Espaçamento interno */
