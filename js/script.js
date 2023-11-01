@@ -19,7 +19,7 @@ videos.forEach(video => {
                 toggleMutedState();
                 video.play();
             });
-        } else if (video.webkitRequestFullscreen) { /* Chrome, Safari, and Opera */
+        } else if (video.webkitRequestFullscreen) { /* Chrome, Safari, e Opera */
             video.webkitRequestFullscreen().then(() => {
                 toggleMutedState();
                 video.play();
