@@ -192,7 +192,7 @@ body{
 
 /* Personalize a aparência do polegar (a parte arrastável da barra de rolagem) */
 ::-webkit-scrollbar-thumb {
-    background: #16a3b6; /* Cor do polegar */
+    background: #a5a5a5; /* Cor do polegar */
     border-radius: 8px;
 }
 
