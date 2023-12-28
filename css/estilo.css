@@ -44,7 +44,7 @@ body{
     width: 50px;
     height: 50px;
     box-shadow: 0 0 8px #00000054;
-    margin: 3px 30px;
+    margin: 2px 10px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -52,19 +52,22 @@ body{
     font-size: 30px;
     position: relative;
     overflow: hidden;
+    line-height: 50px;
 }
 
 .link-1, .link-2, .link-3, .link-4{
+    display: inline-block; /*Remover para os icones ficarem alinhados um abaixo do outro*/
     text-decoration: none !important;
 }
 
 .link i{
+    margin-left: 11px;
     transition: 1.2s;
 }
 
 .link:hover i{
     color: #fff;
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 .link-1{
